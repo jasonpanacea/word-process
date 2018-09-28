@@ -2,7 +2,8 @@
 import xml.etree.ElementTree as ET
 import xml.dom.minidom as minidom
 import collections
-
+import dicttoxml
+from xml.dom.minidom import parseString
 
 def parse_xml():
     tree = ET.parse('./outline.xml')
@@ -34,9 +35,14 @@ def parse_txt():
     return content
 
 def process(content, titles):
+    obj = {'parts': []}
     for i in range(1, len(titles)):
         cur_title = titles[i]
         last_title = titles[i-1]
+        if last_title.title == '第五章 基于全生命周期评价原理的污水处理技术评价' and cur_title.title == '5.1 生命周期评价的概念与发展':
+            # return because of a p number error
+            return
+        
         potential_paras = content[last_title.page]+content[cur_title.page] if cur_title.page != last_title.page else content[last_title.page]
         actual_paras = []
         for para in potential_paras:
@@ -45,11 +51,21 @@ def process(content, titles):
             if len(actual_paras)>0 or similar(para, last_title.title):
                 actual_paras += para,
         actual_paras = actual_paras[1:]
-        # print(last_title.title, cur_title.title, actual_paras)
-        if last_title.title == '第五章 基于全生命周期评价原理的污水处理技术评价' and cur_title.title == '5.1 生命周期评价的概念与发展':
-            print (content[99], content[98])
-            print (last_title, cur_title)
-            print (potential_paras)
+        print (last_title, actual_paras)
+
+
+        if last_title.level == 'part':
+            part = collections.OrderedDict({'title':last_title.title, 'paras':actual_paras, 'chapters':[]})
+        elif last_title.level == 'chapter':
+            chapter = collections.OrderedDict({'title':last_title.title, 'paras':actual_paras, 'sections':[]})
+        elif last_title.level == 'section':
+            section = collections.OrderedDict({'title':last_title.title, 'paras':actual_paras})
+            sections
+
+    xml = dicttoxml.dicttoxml(obj, root=False, item_func=lambda x:'para', cdata=True)
+    dom = parseString(xml)
+    print(dom.toprettyxml())
+        
 
 def similar(s1, s2):
     combine = set(s1 + s2)
