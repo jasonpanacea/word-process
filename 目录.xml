@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<book>
+	<catalogs xml:id="001">
+		<title xml:id="0001" title="第一章 哈尔滨市水资源与水环境现状分析" page="4">
+			<title xml:id="00001" title="1.1 哈尔滨市水资源现状分析" page="4">
+				<title xml:id="0000101" title="1.1.1 哈尔滨市人均水资源情况" page="4"></title>
+				<title xml:id="0000102" title="1.1.2 哈尔滨市水资源利用现状" page="5"></title>
+				<title xml:id="0000103" title="1.1.3 哈尔滨市非传统水源利用现状" page="7"></title>
+			</title>
+			<title xml:id="00002" title="1.2 哈尔滨市水环境现状分析" page="8">
+				<title xml:id="0000201" title="1.2.1 哈尔滨市地表水水环境" page="8"></title>
+				<title xml:id="0000202" title="1.2.2 哈尔滨市地下水水环境" page="10"></title>
+				<title xml:id="0000203" title="1.2.3 哈尔滨市主要饮用水水环境" page="11"></title>
+				<title xml:id="0000204" title="1.2.4 哈尔滨市污水排放" page="14"></title>
+			</title>
+			<title xml:id="00003" title="1.3 哈尔滨市水资源与水环境中潜在问题" page="15">
+				<title xml:id="0000301" title="1.3.1 水资源供需矛盾突出，供水格局面临挑战" page="15"></title>
+				<title xml:id="0000302" title="1.3.2 共享流域存在风险，水环境治理面临压力" page="16"></title>
+				<title xml:id="0000303" title="1.3.3 农业面源污染加剧，风险加大" page="17"></title>
+			</title>
+			<title xml:id="00004" title="1.4 小结" page="18"></title>
+		</title>
+		<title xml:id="1001" title="第二章 城市水资源与水环境可持续发展评价技术体系研究" page="19">
+			<title xml:id="10001" title="2.1 城市水资源与水环境可持续开发利用综合评价指标体系" page="19">
+				<title xml:id="1000101" title="2.1.1 可持续发展内涵" page="19"></title>
+				<title xml:id="1000102" title="2.1.2 可持续发展评价原则" page="20"></title>
+				<title xml:id="1000103" title="2.1.3 可持续发展评价指标体系" page="21"></title>
+				<title xml:id="1000104" title="2.1.4 可持续发展评价模型" page="23"></title>
+			</title>
+			<title xml:id="10002" title="2.2 哈尔滨市城市水资源开发利用与水环境可持续发展分析" page="24"></title>
+			<title xml:id="10003" title="2.3 城市生态状况评价及承载力分析" page="27">
+				<title xml:id="1000301" title="2.3.1 城市生态赤字（盈余）分析与预测模型" page="27"></title>
+				<title xml:id="1000302" title="2.3.2 哈尔滨市生态赤字（盈余）分析" page="28"></title>
+			</title>
+			<title xml:id="10004" title="2.4 哈尔滨市水资源与水环境现状及存在的主要问题分析" page="32">
+				<title xml:id="1000401" title="2.4.1 哈尔滨市水资源与污水情况预测" page="32"></title>
+				<title xml:id="1000402" title="2.4.2 哈尔滨市生态赤字加剧，水环境问题凸显" page="41"></title>
+			</title>
+			<title xml:id="10005" title="2.5 小结" page="44"></title>
+		</title>
+		<title xml:id="2001" title="第三章 水价调控模型及在水资源开发利用中的应用研究" page="45">
+			<title xml:id="20001" title="3.1 生活水价调控模型构建" page="45">
+				<title xml:id="2000101" title="3.1.1 哈尔滨市现行生活水价构成与分析" page="45"></title>
+				<title xml:id="2000102" title="3.1.2 现行水价下的生活水价模型" page="46"></title>
+				<title xml:id="2000103" title="3.1.3 哈尔滨市阶梯式生活用水水价模型" page="48"></title>
+				<title xml:id="2000104" title="3.1.4 阶梯式水价模型调节下的生活水价调控模型" page="51"></title>
+			</title>
+			<title xml:id="20002" title="3.2 生产水价调控作模型构建" page="52"></title>
+			<title xml:id="20003" title="3.3 水价调控作用分析" page="53">
+				<title xml:id="2000301" title="3.3.1 近10年哈尔滨市水供需现状分析" page="53"></title>
+				<title xml:id="2000302" title="3.3.2 水价调控对生活用水调控作用研究" page="56"></title>
+				<title xml:id="2000303" title="3.3.3 水价调控对生产用水调控作用研究" page="56"></title>
+				<title xml:id="2000304" title="3.3.4 水价调控模型验证分析" page="57"></title>
+			</title>
+			<title xml:id="20004" title="3.4 水价调控对未来水供需平衡影响" page="58">
+				<title xml:id="2000401" title="3.4.1 基于现行供水模式下哈尔滨市水价预测分析" page="58"></title>
+				<title xml:id="2000402" title="3.4.2 基于现行供水模式下的水价对水供需影响研究" page="60"></title>
+			</title>
+			<title xml:id="20005" title="3.5 小结" page="64"></title>
+		</title>
+		<title xml:id="3001" title="第四章 基于跨界流域共享模式的水资源利用及水环境风险" page="65">
+			<title xml:id="30001" title="4.1 松花江流域沿江城市用水分析" page="65">
+				<title xml:id="3000101" title="4.1.1 流域典型上游城市—吉林市用水分析" page="66"></title>
+				<title xml:id="3000102" title="4.1.2 流域典型下游城市—佳木斯市用水分析" page="68"></title>
+			</title>
+			<title xml:id="30002" title="4.2 松花江流域典型城市取排水状况分析" page="70">
+				<title xml:id="3000201" title="4.2.1 上游城市排水对哈尔滨市流域水质影响分析" page="70"></title>
+				<title xml:id="3000202" title="4.2.2 中下游城市取排水状况分析" page="71"></title>
+			</title>
+			<title xml:id="30003" title="4.3 基于流域共享的哈尔滨市排污量计算" page="72">
+				<title xml:id="3000301" title="4.3.1 水环境容量推断模型" page="72"></title>
+				<title xml:id="3000302" title="4.3.2哈尔滨市水环境容量计算" page="78"></title>
+				<title xml:id="3000303" title="4.3.3 哈尔滨市需要消减排污量计算" page="80"></title>
+			</title>
+			<title xml:id="30004" title="4.4 基于跨界流域共享的风险识别" page="82">
+				<title xml:id="3000401" title="4.4.1 跨界风险源筛选" page="82"></title>
+				<title xml:id="3000402" title="4.4.2 跨界水污染风险源识别指标体系" page="83"></title>
+				<title xml:id="3000403" title="4.4.3 松花江跨界水污染风险源分级模型及识别结果" page="89"></title>
+			</title>
+			<title xml:id="30005" title="4.5 小结" page="97"></title>
+		</title>
+		<title xml:id="4001" title="第五章 基于全生命周期评价原理的污水处理技术评价" page="99">
+			<title xml:id="40001" title="5.1 生命周期评价的概念与发展" page="100">
+				<title xml:id="4000101" title="5.1.1 生命周期评价的定义与评估框架" page="100"></title>
+				<title xml:id="4000102" title="5.1.2 生命周期评价的发展与应用" page="101"></title>
+				<title xml:id="4000103" title="5.1.3 LCA在污水处理领域的应用发展" page="103"></title>
+			</title>
+			<title xml:id="40002" title="5.2 基于LCA的污水处理技术评价模型" page="104">
+				<title xml:id="4000201" title="5.2.1 污水处理设施的输入——输出" page="105"></title>
+				<title xml:id="4000202" title="5.2.2 LCA清单盘查" page="106"></title>
+				<title xml:id="4000203" title="5.2.3 污水处理工艺的生命周期评价分析" page="107"></title>
+			</title>
+			<title xml:id="40003" title="5.3 基于LCA的污水处理技术评价案例分析" page="108">
+				<title xml:id="4000301" title="5.3.1 传统污水处理技术的碳足迹研究" page="108"></title>
+				<title xml:id="4000302" title="5.3.2 新型污水处理技术的LCA研究" page="116"></title>
+			</title>
+			<title xml:id="40004" title="5.4 小结" page="119"></title>
+		</title>
+		<title xml:id="5001" title="第六章 基于流域共享的城市水资源水环境规划方法研究" page="121">
+			<title xml:id="50001" title="6.1 优先考虑水资源水环境的城市规划宏观策略" page="121">
+				<title xml:id="5000101" title="6.1.1 城市总体规划中水资源规划原则" page="121"></title>
+				<title xml:id="5000102" title="6.1.2 水资源优先考虑下的城市建设用地及产业布局" page="123"></title>
+				<title xml:id="5000103" title="6.1.3 城市水资源生态系统专项规划" page="123"></title>
+				<title xml:id="5000104" title="6.1.4 城市水资源防灾减灾" page="124"></title>
+				<title xml:id="5000105" title="6.1.5 建立城市水资源相关评估指标" page="124"></title>
+			</title>
+			<title xml:id="50002" title="6.2 优先考虑水资源水环境的城市规划的详细规划" page="127">
+				<title xml:id="5000201" title="6.2.1 城市排水系统" page="127"></title>
+				<title xml:id="5000202" title="6.2.2 城市污水处理系统" page="129"></title>
+				<title xml:id="5000203" title="6.2.3 城市景观绿化节水方面" page="130"></title>
+			</title>
+			<title xml:id="50003" title="6.3 基于流域共享的哈尔滨市水资源水环境规划" page="131">
+				<title xml:id="5000301" title="6.3.1 哈尔滨市现有水资源水环境城市规划政策" page="131"></title>
+				<title xml:id="5000302" title="6.3.2 针对哈尔滨市水资源水环境的规划政策建议" page="132"></title>
+				<title xml:id="5000303" title="6.3.3 小结" page="134"></title>
+			</title>
+			<title xml:id="50004" title="6.4 小结" page="135"></title>
+		</title>
+		<title xml:id="6001" title="第七章 哈尔滨市水资源与水环境改善与修复及路线图" page="136">
+			<title xml:id="60001" title="7.1 哈尔滨市水资源开发利用模式" page="136">
+				<title xml:id="6000101" title="7.1.1 发挥水价调控作用，完善水价市场" page="136"></title>
+				<title xml:id="6000102" title="7.1.2 重启松花江为主要水源，改变供水格局" page="136"></title>
+				<title xml:id="6000103" title="7.1.3 加强中水回用，推动节约型生态型城市建设" page="137"></title>
+			</title>
+			<title xml:id="60002" title="7.2 哈尔滨市水环境修复策略" page="138">
+				<title xml:id="6000201" title="7.2.1 改善地表水环境，有针对性开展治污工作" page="138"></title>
+				<title xml:id="6000202" title="7.2.2 完善风险源的预警及监控" page="139"></title>
+				<title xml:id="6000203" title="7.2.3 开展地下水水质监测和普查" page="139"></title>
+			</title>
+			<title xml:id="60003" title="7.3 哈尔滨市水资源开发利用与水环境修复路线图" page="139"></title>
+			<title xml:id="60004" title="7.4 小结" page="142"></title>
+		</title>
+		<title xml:id="7001" title="参考文献" page="143"></title>
+		<title xml:id="8001" title="附件" page="152">
+			<title xml:id="800101" title="1. 流域共享模式的我国城市用水模式与机制研究" page="152"></title>
+			<title xml:id="800102" title="2. 水资源水环境导向的城市规划实践体系优化研究" page="152"></title>
+			<title xml:id="800103" title="3. 完善哈尔滨城市供水方式的必要性和可行性的研究" page="152"></title>
+		</title>
+	</catalogs>
+	<parts xml:id="002">
+		<part xml:id="00201" page="3">
+
+		</part>
+
+	</parts>
+	<metadatainfom>
+		<reportname><![CDATA[]]></reportname>
+		<programnumber><![CDATA[]]></programnumber>
+		<ArticlePostTime><![CDATA[]]></ArticlePostTime>
+		<Nameofresearchgroup><![CDATA[]]></Nameofresearchgroup>
+		<Teamleader><![CDATA[]]></Teamleader>
+		<Deputyleader><![CDATA[]]></Deputyleader>
+		<Membersofresearchgroup><![CDATA[]]></Membersofresearchgroup>
+		<abstract></abstract>
+		<Reference>
+		</Reference>
+	</metadatainfom>
+</book>
