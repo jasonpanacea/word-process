@@ -39,9 +39,9 @@ def process(content, titles):
     for i in range(1, len(titles)):
         cur_title = titles[i]
         last_title = titles[i-1]
-        if last_title.title == '第五章 基于全生命周期评价原理的污水处理技术评价' and cur_title.title == '5.1 生命周期评价的概念与发展':
+        if last_title.title == '第二章 城市水资源与水环境可持续发展评价技术体系研究':
             # return because of a p number error
-            return
+            break
         
         potential_paras = content[last_title.page]+content[cur_title.page] if cur_title.page != last_title.page else content[last_title.page]
         actual_paras = []
@@ -51,18 +51,18 @@ def process(content, titles):
             if len(actual_paras)>0 or similar(para, last_title.title):
                 actual_paras += para,
         actual_paras = actual_paras[1:]
-        print (last_title, actual_paras)
-
 
         if last_title.level == 'part':
-            part = collections.OrderedDict({'title':last_title.title, 'paras':actual_paras, 'chapters':[]})
+            part = {'title':last_title.title, 'paras':actual_paras, 'chapters':[]}
+            obj['parts'] += part,
         elif last_title.level == 'chapter':
-            chapter = collections.OrderedDict({'title':last_title.title, 'paras':actual_paras, 'sections':[]})
+            chapter = {'title':last_title.title, 'paras':actual_paras, 'sections':[]}
+            obj['parts'][-1]['chapters'] += chapter,
         elif last_title.level == 'section':
-            section = collections.OrderedDict({'title':last_title.title, 'paras':actual_paras})
-            sections
+            section = {'title':last_title.title, 'paras':actual_paras}
+            obj['parts'][-1]['chapters'][-1]['sections'] += section,
 
-    xml = dicttoxml.dicttoxml(obj, root=False, item_func=lambda x:'para', cdata=True)
+    xml = dicttoxml.dicttoxml(obj, root=False, attr_type=False, item_func=lambda x:'para', cdata=True)
     dom = parseString(xml)
     print(dom.toprettyxml())
         
