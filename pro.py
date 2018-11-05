@@ -64,7 +64,9 @@ def process(content, titles):
 
     xml = dicttoxml.dicttoxml(obj, root=False, attr_type=False, item_func=lambda x:'para', cdata=True)
     dom = parseString(xml)
-    print(dom.toprettyxml())
+    with open('./1p.xml', 'w') as res:
+        res.write(dom.toprettyxml())
+    # print(dom.toprettyxml())
         
 
 def similar(s1, s2):
